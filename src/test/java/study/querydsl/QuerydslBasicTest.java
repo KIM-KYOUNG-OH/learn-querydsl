@@ -147,9 +147,9 @@ public class QuerydslBasicTest {
         results.getTotal();
         List<Member> resultList = results.getResults();
 
-        long total = jpaQueryFactory
-                .select(member)
-                .fetchCount();
+//        long total = jpaQueryFactory
+//                .select(member)
+//                .fetchCount();
     }
 
     /**
